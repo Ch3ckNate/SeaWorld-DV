@@ -108,9 +108,6 @@ Camera functionality is implemented using @nativescript/camera. The main scannin
 The app consists of two main screens:
 
 1. **Welcome Screen**
-   - Sea World branding
-   - Clear instructions for users
-   - Start scanning button
 
 2. **Scanning Screen**
    - Camera integration
