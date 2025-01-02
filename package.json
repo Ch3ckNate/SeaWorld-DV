@@ -1,0 +1,29 @@
+{
+  "name": "@nativescript-vue/stackblitz-template",
+  "main": "src/app.ts",
+  "version": "1.0.0",
+  "dependencies": {
+    "@nativescript/camera": "^6.0.0",
+    "@nativescript/core": "~8.7.0",
+    "nativescript-vue": "3.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@nativescript/preview-cli": "1.0.14",
+    "@nativescript/stackblitz": "^0.0.8",
+    "@nativescript/tailwind": "~2.1.0",
+    "@nativescript/types": "~8.7.0",
+    "@nativescript/webpack": "~5.0.0",
+    "@types/node": "~17.0.21",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "postcss-import": "^16.1.0",
+    "postcss-nesting": "^13.0.1",
+    "tailwindcss": "^3.4.3",
+    "typescript": "^5.4.5"
+  },
+  "stackblitz": {
+    "installDependencies": true,
+    "compileTrigger": "save",
+    "startCommand": "setup-nativescript-stackblitz && ns preview"
+  }
+}
